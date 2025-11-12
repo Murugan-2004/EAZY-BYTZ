@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    padding: 8px 16px;
+    z-index: 1;
+}
+.port {
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+}
+li {
+    display: inline;
+}
+ul > li > a {
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px; 
+    letter-spacing: 4px;
+}
+a:hover {
+    background-color: rgb(202, 200, 200) ;
+}
+.pic {
+    position: relative;
+}
+.lio {
+    position: absolute;
+    top: 49%;
+    right: 30%;
+    font-size: 70px;
+    color: black;
+    letter-spacing: 4px;
+}
+.my {
+    color: white;
+    background-color: black;
+    padding: 8px 14px;
+    opacity: 0.75;
+}
+.ill {
+    background-color: rgb(249, 248, 248);
+}
+.out {
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: black;
+}
+hr {
+    opacity: 0.3;
+    padding-left: 40spx;
+}
+.row {
+    display: flex;
+}
+.col-1 {
+    width: 50%;
+    padding-left: 10px;
+}
+.hel {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.and {
+    padding-right: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.col-2 {
+    width: 50%;
+}
+.top {
+    font-size: 200px;
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.vel {
+    color: darkgray;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 240px;
+}
+.col-25 {
+    width: 50%;
+}
+.cov {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.ht {
+    padding-top: 15px;
+    opacity: 0.60;
+}
+.skill {
+    font-weight: 600;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.view {
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+.view:hover {
+    color: black;
+    background-color: rgb(173, 172, 172);
+    border: none;
+}
+.curv {
+    border-radius: 10px;
+}
+.per {
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 30px;
+}
+.end {
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.git {
+    text-align: center;
+}
+.hub {
+    font-size: 200px;
+}
+.arch {
+    text-decoration: none;
+    font-size: 60px;
+}
+.arch:hover {
+    color: blue;
+    background: transparent;
+}
+.ts {
+    padding-left: 20px;
+    background-color: rgb(249, 248, 248);
+}
+.ill {
+    padding-left: 20px;
+    background-color: rgb(249, 248, 248);
+}
+.name {
+    padding: 10px;
+    width: 98%;
+    opacity: 0.5;
+}
+.email {
+    padding: 10px;
+    width: 98%;
+    opacity: 0.5;
+}
+.subject {
+    padding: 10px;
+    width: 98%;
+    opacity: 0.5;
+}
+.comment {
+    padding: 10px;
+    width: 98%;
+    opacity: 0.5;
+}
+.for {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.con {
+    padding-left: 20px;
+}
+.in {
+    padding-top: 20px;
+}
+.send {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.button {
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover {
+    color: black;
+    background-color: rgb(173, 172, 172);
+    border: none;
+}
+.w3 {
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    font-size: 15px;
+}
+.css {
+    color: white;
+}
+.css:hover {
+    color: green;
+    background-color: transparent;
+}
+.social {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+form {
+    padding-bottom: 10px;
+}
